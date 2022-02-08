@@ -1,0 +1,1 @@
+# microsservico-teste-config-server
