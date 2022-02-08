@@ -1,6 +1,4 @@
 spring:
-  config:
-    import: "optional:configserver:"
   application:
     name: greeting-service
 management:
@@ -8,8 +6,7 @@ management:
     web:
       exposure:
         include:
-          - '*'
-
+        - '*'
 greeting-service:
-  greeting: "Ciao"
+  greeting: "Pronto"
   default-value: "Mondo"
